@@ -1,0 +1,171 @@
+.container.Ui {
+  padding: 60px 100px 60px 180px;
+}
+.UiInfo {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 500;
+  width: 70%;
+}
+.UiMainRow {
+  display: flex;
+}
+.UiRow {
+  display: flex;
+  padding-block: 20px;
+  flex-wrap: wrap;
+}
+.UiRow .UiCol {
+  width: 25%;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 13px;
+  background-color: #f4f7ff;
+}
+.UiColHeader {
+  color: #464359;
+}
+.UiInnerRow {
+  display: flex;
+  padding-top: 30px;
+}
+.UiInnerRowCol {
+  width: 20%;
+  background-color: transparent;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 0;
+}
+.UiInnerRowColInfo {
+  display: block;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #000;
+}
+.UiSlidedRow {
+  padding-left: 50px;
+}
+.imgContainer {
+  padding: 30px;
+  background-color: red;
+  background: url("@/../../../../public/ERP/bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sideImg {
+  width: 550px;
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Media */
+@media (min-width: 320px) and (max-width: 450px) {
+  .container.Ui {
+    padding: 10px;
+  }
+  .UiMainRow {
+    flex-direction: column;
+  }
+  .sideImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .UiInfo {
+    width: 100%;
+  }
+  .UiRow {
+    justify-content: center;
+    padding-block: 10px;
+  }
+  .imgContainer {
+    justify-content: start;
+    align-items: start;
+  }
+  .UiRow .UiCol {
+    width: 45%;
+    padding: 10px;
+    margin: 5px;
+  }
+  .UiInnerRowCol {
+    width: 25%;
+    padding: 10px;
+    margin: 0;
+  }
+  .UiInnerRowColInfo {
+    font-size: 17px;
+  }
+  .UiSlidedRow {
+    padding-left: 20px;
+  }
+}
+@media (min-width: 450px) and (max-width: 650px) {
+  .container.Ui {
+    padding: 50px 30px;
+  }
+  .UiMainRow {
+    flex-direction: column;
+  }
+  .sideImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .imgContainer {
+    justify-content: start;
+    align-items: start;
+  }
+}
+@media (min-width: 650px) and (max-width: 850px) {
+  .container.Ui {
+    padding: 50px 30px;
+  }
+  .UiMainRow {
+    flex-direction: column;
+  }
+  .sideImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .imgContainer {
+    justify-content: start;
+    align-items: start;
+  }
+}
+@media (min-width: 850px) and (max-width: 1050px) {
+  .container.Ui {
+    padding: 50px 30px;
+  }
+  .UiMainRow {
+    flex-direction: column;
+  }
+  .sideImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .imgContainer {
+    justify-content: start;
+    align-items: start;
+  }
+}
+@media (min-width: 1050px) and (max-width: 1250px) {
+  .container.Ui {
+    padding: 60px 100px;
+  }
+  .sideImg {
+    width: 450px;
+    height: 400px;
+    object-fit: cover;
+  }
+}
+@media (min-width: 1250px) and (max-width: 1450px) {
+  .container.Ui {
+    padding: 60px 100px 60px 150px;
+  }
+}

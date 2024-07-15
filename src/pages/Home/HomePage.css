@@ -1,0 +1,145 @@
+.container.HomePage {
+    height: 100vh;
+    padding: 200px;
+    width: 100%;
+}
+.container.HomePage .HomePageRow {
+    display: flex;
+}
+.container.HomePage .HomePageImg {
+    width: 267px;
+    height: 100px;
+    margin-bottom: 24px;
+}
+.container.HomePage .HomePageHeader {
+    font-size: 40px;
+    line-height: 54px;
+    color: #464359;
+    font-family: Manrope, sans-serif;
+    margin-bottom: 48px;
+}
+.HomePageMainImg {
+    width: 550px;
+    object-fit: cover;
+    height: auto;
+}
+.container.HomePage .HomePageHeaderSlide {
+    color: #1b5bf7;
+    font-size: 40px;
+    font-family: Manrope, sans-serif;
+}
+.container.HomePage .HomePageBtn {
+    padding: 13px 90px;
+    border-radius: 12px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: white;
+    margin-top: 30px;
+    border: none;
+    background-color: #1b5bf7;
+}
+.container.HomePage .HomePageBtn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* Media */
+@media (min-width: 320px) and (max-width:450px) {
+    .container.HomePage {
+        padding: 100px 10px;
+        height: auto;
+        width: 100%;
+    }
+    .container.HomePage .HomePageImg {
+        width: 230px;
+        height: 100px;
+    }
+    .container.HomePage .HomePageRow {
+        flex-direction: column;
+        width: 100%;
+        align-items: start;
+    }
+    .HomePageMainImg {
+        width: 100%;
+        height: 100%;
+    }
+    .container.HomePage .HomePageRow .col-lg-6:nth-of-type(1) {
+        padding-bottom: 50px;
+    }
+}
+@media (min-width: 450px) and (max-width:650px) {
+    .container.HomePage {
+        padding: 100px 30px;
+        height: auto;
+        width: 100%;
+    }
+    .container.HomePage .HomePageImg {
+        width: 230px;
+        height: 100px;
+    }
+    .container.HomePage .HomePageRow {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .HomePageMainImg {
+        width: 100%;
+        height: 100%;
+    }
+    .container.HomePage .HomePageRow .col-lg-6:nth-of-type(1) {
+        padding-bottom: 50px;
+    }
+}
+@media (min-width: 650px) and (max-width:850px) {
+    .container.HomePage {
+        padding: 100px 50px;
+        height: auto;
+        width: 100%;
+    }
+    .container.HomePage .HomePageRow {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .container.HomePage .HomePageRow .col-lg-6:nth-of-type(1) {
+        padding-bottom: 50px;
+    }
+}
+@media (min-width:850px) and (max-width:1050px) {
+    .container.HomePage {
+        padding: 100px;
+        height: auto;
+        width: 100%;
+    }
+    .container.HomePage .HomePageRow {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .container.HomePage .HomePageRow .col-lg-6:nth-of-type(1) {
+        padding-bottom: 50px;
+    }
+    .HomePageMainImg {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (min-width: 1050px) and (max-width:1250px) {
+    .container.HomePage {
+        padding: 100px;
+    }
+    .HomePageMainImg {
+        width: 450px;
+        height: 400px;
+
+    }
+    
+}
+
+@media (min-width: 1250px) and (max-width:1450px) {
+    .container.HomePage {
+        padding: 150px;
+    }
+}
+

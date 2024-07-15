@@ -1,0 +1,162 @@
+.container.Del {
+  padding: 60px 180px;
+}
+.DelMainRow {
+  display: flex;
+}
+.DelHeaderImg {
+  position: absolute;
+  margin-top: -80px;
+}
+.btnLikedImg {
+  display: flex;
+  gap: 5px;
+  width: 120px;
+  border: none;
+  border-radius: 23px;
+  background-color: rgba(255, 87, 34, 0.2);
+  color: #ff5722;
+  padding: 5px 10px;
+}
+.DelMainImg {
+  width: 550px;
+  height: 380px;
+}
+.DelRightInfo {
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 600;
+  color: #464359;
+}
+.DelRightRow {
+  display: flex;
+  flex-wrap: wrap;
+  padding-block: 30px;
+}
+.whatWe {
+  font-size: 25px;
+}
+.DelRightCol {
+  width: 28.5%;
+  padding: 20px;
+  margin: 10px;
+  background-color: #f4f7ff;
+  border-radius: 12px;
+}
+.DelRightColInfo {
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #000;
+}
+
+/* Media */
+@media (min-width: 320px) and (max-width: 450px) {
+  .container.Del {
+    padding: 10px;
+  }
+  .DelMainRow {
+    flex-direction: column;
+  }
+  .DelMainImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .DelRightCol {
+    width: 45%;
+    margin: 5px;
+    padding: 10px;
+  }
+  .DelHeaderImg {
+    position: static;
+    margin-block: 30px;
+  }
+}
+@media (min-width: 450px) and (max-width: 650px) {
+  .container.Del {
+    padding: 30px;
+  }
+  .DelMainRow {
+    flex-direction: column;
+  }
+  .DelMainImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .DelRightCol {
+    width: 30%;
+    margin: 5px;
+    padding: 10px;
+  }
+  .DelHeaderImg {
+    position: static;
+    margin-block: 30px;
+  }
+}
+@media (min-width:650px) and (max-width: 850px) {
+  .container.Del {
+    padding: 30px;
+  }
+  .DelMainRow {
+    flex-direction: column;
+  }
+  .DelMainImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .DelRightCol {
+    width: 32%;
+    margin: 5px;
+    padding: 10px;
+  }
+  .DelHeaderImg {
+    position: static;
+    margin-block: 30px;
+  }
+}
+@media (min-width:850px) and (max-width:1050px) {
+  .container.Del {
+    padding: 30px;
+  }
+  .DelMainRow {
+    flex-direction: column;
+  }
+  .DelMainImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .DelRightCol {
+    width: 30%;
+    margin: 5px;
+    padding: 10px;
+  }
+  .DelHeaderImg {
+    position: static;
+    margin-block: 30px;
+  }
+}
+@media (min-width:1050px) and (max-width:1250px) {
+  .container.Del {
+    padding: 60px;
+  }
+  .DelMainImg {
+    width: 400px;
+    height: 350px;
+  }
+  .DelRightCol {
+    width: 30%;
+    margin: 5px;
+    padding: 10px;
+  }
+}
+@media (min-width: 1250px) and (max-width:1450px) {
+  .container.Del {
+    padding: 60px;
+  }
+}
+

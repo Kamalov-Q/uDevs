@@ -1,0 +1,115 @@
+.container.Team {
+    padding: 60px 180px;
+    height: auto;
+    background-color: #f4f7ff;
+}
+.TeamRow {
+    display: flex;
+}
+.TeamCol {
+    display: flex;
+    flex-direction: column;
+}
+.TeamCol:nth-of-type(2) {
+    align-items: end;
+}
+.TeamColInfo {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #464359;
+}
+.countUp {
+    margin-bottom: 4px;
+    font-size: 120px;
+    line-height: 96px;
+    font-weight: 700;
+    padding-top: 30px;
+    color: #1b5bf7;
+}
+.TeamColPar {
+    font-size: 40px;
+    line-height: 72px;
+    font-weight: 800;
+    color: #464359;
+}
+.TeamImg {
+    width: 500px;
+    height: 400px;
+}
+
+/* Media */
+@media (min-width: 320px) and (max-width: 450px) {
+    .container.Team {
+        padding: 15px;
+    }
+    .TeamRow {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .TeamImg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .countUp {
+        font-size: 60px;
+        line-height: 40px;
+    }
+    .TeamColPar {
+        font-size: 40px;
+        line-height: 72px;
+        font-weight: 800;
+        color: #464359;
+    }.TeamColPar {
+        font-size: 30px;
+        line-height: 30px;
+        padding-top: 30px;
+    }
+}
+@media (min-width:450px) and (max-width:650px) {
+    .container.Team {
+        padding: 30px;
+    }
+    .TeamRow {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .TeamImg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+@media (min-width:650px) and (max-width:850px) {
+    .container.Team {
+        padding: 30px;
+    }
+    .TeamRow {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+@media (min-width:850px) and (max-width:1050px) {
+    .container.Team {
+        padding: 30px;
+    }
+    .TeamRow {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+@media (min-width: 1050px) and (max-width: 1250px) {
+    .container.Team {
+        padding: 50px 100px;
+    }
+}
+@media (min-width: 1250px) and (max-width:1450px) {
+    .container.Team {
+        padding: 50px 150px;
+    }
+}

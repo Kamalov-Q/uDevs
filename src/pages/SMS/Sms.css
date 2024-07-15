@@ -1,0 +1,129 @@
+.container.Sms {
+  padding: 60px 180px;
+  height: auto;
+}
+.btnLikedSms {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  width: 150px;
+  margin-block: 20px;
+  border-radius: 23px;
+  background-color: rgba(68, 115, 229, 0.2);
+  color: #4473e5;
+}
+.SmsMainRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+.SmsMainColImg {
+  width: 600px;
+  height: 400px;
+}
+.SmsColInfo {
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 600;
+  color: #464359;
+  margin-block: 20px;
+}
+.SmsInnerRow {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+.SmsInnerCol {
+  width: 28.5%;
+  background-color: rebeccapurple;
+  padding: 10px;
+  border-radius: 12px;
+  margin: 10px;
+  background-color: #f4f7ff;
+}
+
+/* Media  */
+@media (min-width: 320px) and (max-width:450px) {
+  .container.Sms {
+    padding: 10px;
+  }
+  .SmsMainColImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .SmsInnerCol {
+    width: 45%;
+    margin: 7px;
+  }
+  .SmsColInfo {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #464359;
+    margin-block: 20px;
+  }
+}
+@media (min-width: 450px) and (max-width:650px) {
+  .container.Sms {
+    padding: 20px;
+  }
+  .SmsMainColImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .SmsInnerCol {
+    width: 30%;
+    margin: 7px;
+  }
+}
+@media (min-width: 650px) and (max-width:850px) {
+  .container.Sms {
+    padding: 20px;
+  }
+  .SmsMainColImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .SmsInnerCol {
+    width: 30%;
+    margin: 7px;
+  }
+}
+@media (min-width: 850px) and (max-width:1050px) {
+  .container.Sms {
+    padding: 20px;
+  }
+  .SmsMainColImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .SmsInnerCol {
+    width: 30%;
+    margin: 7px;
+  }
+}
+@media (min-width:1050px) and (max-width:1250px) {
+  .container.Sms {
+    padding: 40px;
+  }
+  .SmsMainColImg {
+    margin-left: 40px;
+    width: 450px;
+    height: 400px;
+    object-fit: cover;
+  }
+  .SmsInnerCol {
+    width: 30%;
+    margin: 7px;
+  }
+}
+@media (min-width: 1250px) and (max-width: 1450px) {
+  .container.Sms {
+    padding: 60px 100px;
+  }
+}
+

@@ -1,0 +1,145 @@
+.container.Erp {
+    padding: 60px 100px 60px 180px;
+    height: auto;
+    background-color: #f4f7ff;
+}
+.container.Erp .ErpRow {
+    display: flex;
+}
+
+.container.Erp .ErpRow .ImgContainer {
+    padding: 30px 20px;
+    display: flex;
+    background: url("@/../../../../public/ERP/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 50px;
+    
+}
+.container.Erp .ErpRow .ImgContainer .ErpLeftImg {
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.ErpColInfo {
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+.ErpInnerRow {
+    padding-left: 50px;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ErpInnerCol {
+    background-color: #e0e8ff;
+    margin: 10px;
+    width: 28%;
+    border-radius: 12px;
+    height: auto;
+    padding: 20px;
+}
+.ErpInnerColInfo {
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #000;
+}
+
+/* Media  */
+@media (min-width: 320px) and (max-width:450px) {
+    .container.Erp {
+        padding: 10px;
+    }
+    .ErpInnerRow {
+        padding-left: 15px;
+    }
+    .ErpInnerCol {
+        margin: 5px;
+        width: 45%;
+        padding: 10px;
+    }
+    .container.Erp .ErpRow {
+        flex-direction: column;
+    }
+    .container.Erp .ErpRow .ImgContainer .ErpLeftImg {
+        width: 100%;
+        height: 100%;
+    }
+    .ErpColInfo {
+        padding-left: 10px;
+    }
+    .ErpInnerRow {
+        padding-left: 10px;
+    }
+    .ErpInnerColInfo {
+        font-size: 15px;
+    }
+}
+@media (min-width:450px) and (max-width:650px) {
+    .container.Erp {
+        padding: 30px;
+    }
+    .ErpInnerRow {
+        padding-left: 15px;
+    }
+    .ErpInnerCol {
+        margin: 5px;
+        width: 30%;
+        padding: 10px;
+    }
+    .container.Erp .ErpRow {
+        flex-direction: column;
+    }
+    .container.Erp .ErpRow .ImgContainer .ErpLeftImg {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (min-width:650px) and (max-width:850px) {
+    .container.Erp {
+        padding: 30px;
+    }
+    .ErpInnerCol {
+        margin: 5px;
+        width: 30%;
+    }
+    .container.Erp .ErpRow {
+        flex-direction: column;
+    }
+}
+@media (min-width:850px) and (max-width:1050px) {
+    .container.Erp {
+        padding: 30px;
+    }
+    .ErpInnerCol {
+        margin: 5px;
+        width: 30%;
+    }
+    .container.Erp .ErpRow {
+        flex-direction: column;
+    }
+}
+@media (min-width:1050px) and (max-width:1250px) {
+    .container.Erp {
+        padding: 60px;
+    }
+    .ErpInnerCol {
+        margin: 7px;
+        width: 28%;
+    }
+}
+@media (min-width:1250px) and (max-width:1450px) {
+    .container.Erp {
+        padding: 60px 150px;
+    }
+    .ErpInnerCol {
+        margin: 7px;
+        width: 30%;
+    }
+}

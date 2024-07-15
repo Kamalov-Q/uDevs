@@ -1,0 +1,157 @@
+.container.Cont {
+    padding: 60px 180px;
+    height: auto;
+}
+.ContMainRow {
+    display: flex;
+    margin-block: 30px;
+    height: 100vh;
+    padding: 40px 98px 88px;
+    border-radius: 10px;
+    box-shadow: 2px 10px 28px rgba(75, 0, 129, .12);
+}
+.ContMainRowInfo {
+    font-size: 20px;
+    padding-left: 15px;
+    line-height: 30px;
+    color: #0f001a;
+    font-weight: 700;
+}
+.ContMainRow form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+form input {
+    margin-bottom: 30px;
+    border: 1px solid #B4BEC8;
+    width: 100%;
+    padding: 20px;
+}
+form input::placeholder, form textarea::placeholder {
+    font-size: 18px;
+    font-weight: 400;
+}
+form input:focus, form textarea:focus {
+    outline: 0;
+}
+form textarea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #B4BEC8;
+    height: 150px;
+    margin-bottom: 30px;
+}
+.ContactMainBtn {
+    padding: 10px 16px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    width: 55%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #1b5bf7;
+    transition: all .7s;
+}
+.ContactMainBtn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.ContRightCol {
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.ContRightColInfo {
+    display: flex;
+    padding-block: 10px;
+    align-items: center;
+    gap: 10px;
+}
+.Map {
+    width: 500px;
+    height: 200px;
+}
+.ContCol svg {
+    padding-left: 10px;
+}
+
+/* Media  */
+@media (min-width: 320px) and (max-width: 450px) {
+    .container.Cont {
+        padding: 10px;
+    }
+    .Map {
+        width: 100%;
+        height: 150px;
+    }
+    .ContMainRow {
+        flex-direction: column;
+        padding: 15px;
+        height: auto;
+    }
+    form input, form textarea {
+        padding: 10px;
+    }
+    .ContRightCol {
+        padding-left: 10px;
+    }
+}
+@media (min-width:450px) and (max-width:650px) {
+    .container.Cont {
+        padding: 0;
+    }
+    .Map {
+        width: 100%;
+        height: 150px;
+    }
+    .ContMainRow {
+        flex-direction: column;
+        padding: 15px;
+        height: auto;
+    }
+    form input, form textarea {
+        padding: 10px;
+    }
+    .ContRightCol {
+        padding-left: 10px;
+    }
+}
+@media (min-width:650px) and (max-width:850px) {
+    .container.Cont {
+        padding: 0;
+    }
+    .ContMainRow {
+        padding: 30px;
+    }
+    .ContMainRow {
+        flex-direction: column;
+        padding: 15px;
+        height: auto;
+    }
+    form input, form textarea {
+        padding: 10px;
+    }
+}
+@media (min-width:850px) and (max-width:1050px) {
+    .container.Cont {
+        padding: 0;
+    }
+    .ContMainRow {
+        padding: 20px;
+    }
+    form input, form textarea {
+        padding: 10px;
+    }
+}
+@media (min-width:1050px) and (max-width: 1250px) {
+    .container.Cont {
+        padding: 30px;
+    }
+}
+@media (min-width: 1250px) and (max-width: 1450px) {
+    .container.Cont {
+        padding: 60px 150px;
+    }
+}

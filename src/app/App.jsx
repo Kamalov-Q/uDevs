@@ -22,7 +22,7 @@ import Footer from "@/pages/Footer/Footer";
 
 
 
-export default function Home() {
+export default function App() {
   return (
     <>
     <Navbar/>

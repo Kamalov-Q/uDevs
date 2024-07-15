@@ -1,0 +1,75 @@
+.container.How {
+    margin-top: 50px;
+    padding: 60px 100px;
+    height: auto;
+}
+.HowMainRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.HowMainCol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18%;
+    margin-inline: 10px;
+    gap: 5px;
+}
+.HowColInfo {
+    text-align: center;
+}
+
+/* Media */
+@media (min-width:320px) and (max-width: 450px) {
+    .container.How {
+        padding: 10px;
+    }
+    .HowMainCol {
+        width: 100%;
+    }
+}
+@media (min-width:450px) and (max-width:650px) {
+    .container.How {
+        padding: 10px;
+    }
+    .HowMainCol {
+        width: 100%;
+    }
+}
+@media (min-width:650px) and (max-width:850px) {
+    .container.How {
+        padding: 10px;
+    }
+    .HowMainCol {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 18%;
+        margin-inline: 0;
+        gap: 5px;
+    }
+}
+@media (min-width:850px) and (max-width:1050px) {
+    .container.How {
+        padding: 10px;
+    }
+    .HowMainCol {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 18%;
+        margin-inline: 0;
+        gap: 5px;
+    }
+}
+@media (min-width:1050px) and (max-width:1250px) {
+    .container.How {
+        padding: 30px;
+    }
+}
+@media (min-width:1250px) and (max-width: 1450px) {
+    .container.How {
+        padding: 60px;
+    }
+}

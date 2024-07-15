@@ -1,0 +1,131 @@
+.container.Cons {
+  padding: 60px 180px;
+}
+.ConsMainRow {
+  display: flex;
+}
+.ConsMainInfo {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 500;
+  width: 80%;
+  padding-bottom: 30px;
+}
+.ConsRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ConsCol {
+  width: 25%;
+  background-color: #f4f7ff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 12px;
+}
+.ConsColInfo {
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #000;
+}
+.ConsSlidedRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ConsMainImg {
+    width: 500px;
+    height: 400px;
+}
+
+/* Media */
+@media (min-width:320px) and (max-width:450px) {
+  .container.Cons {
+    padding: 10px;
+  }
+  .ConsMainRow {
+    flex-direction: column;
+  }
+  .ConsCol {
+    width: 45%;
+    margin: 5px;
+  }
+  .ConsMainInfo {
+    width: 100%;
+  }
+  .ConsMainImg {
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+}
+@media (min-width:450px) and (max-width:650px) {
+  .container.Cons {
+    padding: 30px;
+  }
+  .ConsMainRow {
+    flex-direction: column;
+  }
+  .ConsCol {
+    width: 30%;
+    margin: 5px;
+  }
+  .ConsMainImg {
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+}
+@media (min-width:650px) and (max-width:850px) {
+  .container.Cons {
+    padding: 30px;
+  }
+  .ConsMainRow {
+    flex-direction: column;
+  }
+  .ConsCol {
+    width: 30%;
+    margin: 5px;
+  }
+}
+@media (min-width:850px) and (max-width:1050px) {
+  .container.Cons {
+    padding: 30px;
+  }
+  .ConsMainRow {
+    flex-direction: column;
+  }
+  .ConsCol {
+    width: 30%;
+    margin: 5px;
+  }
+}
+@media (min-width:1050px) and (max-width: 1250px) {
+  .container.Cons {
+    padding: 60px 100px;
+  }
+  .ConsCol {
+    width: 29%;
+    background-color: #f4f7ff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 12px;
+  }
+}
+@media (min-width:1250px) and (max-width:1450px) {
+  .container.Cons {
+    padding: 60px 150px;
+  }
+  .ConsCol {
+    width: 27%;
+    background-color: #f4f7ff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 12px;
+  }
+}
+
+
