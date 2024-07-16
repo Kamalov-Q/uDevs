@@ -23,8 +23,6 @@ import rus from '@/../../public/rus.png'
 import usa from '@/../../public/usa.webp'
 
 
-import Link from "next/link";
-
 
 
 

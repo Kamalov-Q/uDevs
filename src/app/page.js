@@ -20,7 +20,7 @@ import Contact from "@/pages/Contact/Contact";
 import Footer from "@/pages/Footer/Footer";
 
 
-
+/* @kamalovquvomidin Kamalov Quvomiddin 15.07.2024 */
 
 export default function Home() {
   return (

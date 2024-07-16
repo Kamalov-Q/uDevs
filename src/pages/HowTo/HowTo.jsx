@@ -20,29 +20,29 @@ const HowTo = () => {
       </div>
       <div className="row HowMainRow">
         <div className="col HowMainCol">
-          <Image src={src1} className='HowColImg'/>
+          <Image alt="" src={src1} className='HowColImg'/>
           <div className='HowColHeader'>Contact</div>
           <p className='HowColInfo'>Send us your project request or project idea.</p>
         </div>
         <div className="col HowMainCol">
-          <Image src={src2} className='HowColImg'/>
+          <Image alt="" src={src2} className='HowColImg'/>
           <div className='HowColHeader'>Analysis</div>
           <p className='HowColInfo'>We will contact you to clarify your project requirements.</p>
         </div>
         <div className="col HowMainCol">
-          <Image src={src3} className='HowColImg'/>
+          <Image alt="" src={src3} className='HowColImg'/>
           <div className='HowColHeader'>Offer</div>
           <p className='HowColInfo'>We will provide you with our free, non-binding application.</p>
         </div>
         <div className="col HowMainCol">
-          <Image src={src4} className='HowColImg'/>
+          <Image alt="" src={src4} className='HowColImg'/>
           <div className='HowColHeader'>Team</div>
           <p className='HowColInfo'>We provide a team for your requirements.</p>
         </div>
         <div className="col HowMainCol">
-          <Image src={src5} className='HowColImg'/>
+          <Image alt="" src={src5} className='HowColImg'/>
           <div className='HowColHeader'>Start</div>
-          <p className='HowColInfo'>You will get to know the team and we'll get started.</p>
+          <p className='HowColInfo'>You will get to know the team and we`ll get started.</p>
         </div>
       </div>
     </div>
