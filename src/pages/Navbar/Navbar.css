@@ -177,7 +177,11 @@
   color: white;
   border-radius: 15px;
 }
-
+@media (min-width: 320px) and (max-width: 1050px) {
+  .navServices {
+    display: none;
+  }
+}
 @media (max-width: 1050px) {
   #burgerMenu:checked + .navbarLinksUl {
     background-color: #18191f;
@@ -189,6 +193,18 @@
     position: fixed;
     top: 0;
     left: 0;
+  }
+  .navServices:hover .navbarServices {
+    display: none;
+  }
+  .navPortfolio:hover .navbarPortfolio {
+    display: none;
+  }
+  .navLang {
+    display: none;
+  }
+  .navLang:hover .navbarLanguages {
+    display: none;
   }
   .mobileBurger {
     display: block;
