@@ -1,6 +1,7 @@
 .container.HomePage {
     height: 100vh;
     padding: 200px;
+    padding-top: 300px;
     width: 100%;
 }
 .container.HomePage .HomePageRow {
