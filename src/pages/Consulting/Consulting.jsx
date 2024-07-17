@@ -17,7 +17,7 @@ import Image from 'next/image';
 
 const Consulting = () => {
   return (
-    <div className='container Cons' id='tools'>
+    <div className='container Cons'>
         <div className="row">
       <h1 className='title'>IT Consulting</h1>
         </div>

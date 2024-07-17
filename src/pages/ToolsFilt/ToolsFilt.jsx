@@ -80,7 +80,7 @@ const ToolsFilt = () => {
   };
 
   return (
-    <div className="container Tools">
+    <div className="container Tools" id="tools">
       <div className="row">
         <h1 className="title">Tools</h1>
       </div>
