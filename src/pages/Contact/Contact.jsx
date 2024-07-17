@@ -33,15 +33,15 @@ const Contact = () => {
         <div className="col-lg-6 ContRightCol">
           <div className='row'>
           <div className='ContRightColInfo'>
-            <Image src={src1}/>
+            <Image alt='' src={src1}/>
             <span>Ташкент,  Мирзо-Улугбекский район, 5-й пр. Курган, 32  адрес</span>
           </div>
           <div className='ContRightColInfo'>
-            <Image src={src2}/>
+            <Image alt='' src={src2}/>
             <span>+998 33 66 00 999</span>
           </div>
           <div className='ContRightColInfo'>
-            <Image src={src3}/>
+            <Image alt='' src={src3}/>
             <span>azizbek.b@udevs.io</span>
           </div>
           <div className='ContRightColInfo'>
@@ -59,7 +59,7 @@ const Contact = () => {
           </div>
           <div className="row">
             <div className="col-lg-12">
-            <div className='Map' style={{position:"relative", overflow:"hidden"}}><a href="https://yandex.uz/maps/org/204499754990/?utm_medium=mapframe&utm_source=maps" style={{color:"#eee", fontSize:"12px",position:"absolute", top:"0px"}}>Udevs</a><a href="https://yandex.uz/maps/10335/tashkent/category/software_companies/184105776/?utm_medium=mapframe&utm_source=maps" style={{color:"#eee", fontSize:"12px", position:"absolute", top:"14px"}}>Dasturiy ta’minot  Toshkentda</a><a href="https://yandex.uz/maps/10335/tashkent/category/it_company/184106174/?utm_medium=mapframe&utm_source=maps" style={{color:"#eee", fontSize:"12px", position:"absolute", top:"28px"}}>IT-kompaniya  Toshkentda</a><iframe src="https://yandex.uz/map-widget/v1/?ll=69.191786%2C41.322602&mode=search&oid=204499754990&ol=biz&z=18.63"  frameborder="1" allowfullscreen="true" style={{position:"relative"}}></iframe></div>
+            <div className='Map' style={{position:"relative", overflow:"hidden"}}><a href="https://yandex.uz/maps/org/204499754990/?utm_medium=mapframe&utm_source=maps" style={{color:"#eee", fontSize:"12px",position:"absolute", top:"0px"}}>Udevs</a><a href="https://yandex.uz/maps/10335/tashkent/category/software_companies/184105776/?utm_medium=mapframe&utm_source=maps" style={{color:"#eee", fontSize:"12px", position:"absolute", top:"14px"}}>Dasturiy ta’minot  Toshkentda</a><a href="https://yandex.uz/maps/10335/tashkent/category/it_company/184106174/?utm_medium=mapframe&utm_source=maps" style={{color:"#eee", fontSize:"12px", position:"absolute", top:"28px"}}>IT-kompaniya  Toshkentda</a><iframe src="https://yandex.uz/map-widget/v1/?ll=69.191786%2C41.322602&mode=search&oid=204499754990&ol=biz&z=18.63"  frameBorder="1" allowFullScreen={true} style={{position:"relative"}}></iframe></div>
             </div>
           </div>
         </div>

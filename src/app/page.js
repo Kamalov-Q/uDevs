@@ -34,7 +34,7 @@ export default function Home() {
     <UI/>
     <Opt/>
     <Consulting/>
-    {/* <Tools/> */}
+    <Tools/>
     <Clients/>
     <Delever/>
     <Sms/>
