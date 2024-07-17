@@ -1,5 +1,5 @@
+
 /* eslint-disable @next/next/no-sync-scripts */
-import Image from "next/image";
 import Navbar from "@/pages/Navbar/Navbar";
 import HomePage from "@/pages/Home/HomePage";
 import Services from "@/pages/Services/Services";
@@ -9,7 +9,6 @@ import ERP from "@/pages/ERP/ERP";
 import UI from "@/pages/UI/UI";
 import Opt from "@/pages/Optimization/Opt";
 import Consulting from "@/pages/Consulting/Consulting";
-import Tools from "@/pages/Tools/Tools";
 import Clients from "@/pages/Clients/Clients";
 import Delever from "@/pages/Delever/Delever";
 import Sms from "@/pages/SMS/Sms";
@@ -18,6 +17,8 @@ import Iman from "@/pages/Iman/Iman";
 import HowTo from "@/pages/HowTo/HowTo";
 import Contact from "@/pages/Contact/Contact";
 import Footer from "@/pages/Footer/Footer";
+import Tools from "@/pages/Tools/Tools";
+import ToolsFilt from "@/pages/ToolsFilt/ToolsFilt";
 
 
 /* @kamalovquvomidin Kamalov Quvomiddin 15.07.2024 */
@@ -34,7 +35,7 @@ export default function Home() {
     <UI/>
     <Opt/>
     <Consulting/>
-    <Tools/>
+    <ToolsFilt/>
     <Clients/>
     <Delever/>
     <Sms/>

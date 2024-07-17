@@ -73,10 +73,10 @@ const Navbar = () => {
           <input type="checkbox" id="burgerMenu" />
           <ul className="navbarLinksUl" id="navbarLinksUl">
             <li>
-              <a href="#direction">Direction</a>
+              <a href="#direction" className="direction">Direction</a>
             </li>
             <li>
-              <a href="#command">Command</a>
+              <a href="#command" className="command">Command</a>
             </li>
             <li className="navServices">
               <a href="#services" >
@@ -190,8 +190,8 @@ const Navbar = () => {
                 </svg>
               </a>
               <div className="navbarLanguages">
-                <div className="rus"><Image src={rus} width={50} height={30} alt=""/> <span>Rus</span></div>
-                <div className="eng"><Image src={usa} width={50} height={30} alt=""/> <span>Eng</span></div>
+                <div className="rus"><Image src={rus} width={50} height={30} alt="" className="rusLang"/> <span>Rus</span></div>
+                <div className="eng"><Image src={usa} width={50} height={30} alt="" className="engLang"/> <span>Eng</span></div>
               </div>
             </li>
             <li>

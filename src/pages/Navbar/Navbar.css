@@ -181,6 +181,11 @@
   .navServices {
     display: none;
   }
+  .navLang {
+    position: relative;
+    top: -10000px;
+    display: block;
+  }
 }
 @media (max-width: 1050px) {
   #burgerMenu:checked + .navbarLinksUl {
