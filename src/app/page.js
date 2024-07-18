@@ -1,22 +1,22 @@
 
 /* eslint-disable @next/next/no-sync-scripts */
-import Navbar from "@/pages/Navbar/Navbar";
-import HomePage from "@/pages/Home/HomePage";
-import Services from "@/pages/Services/Services";
+import Navbar from "@/components/Navbar/Navbar";
+import HomePage from "@/components/Home/HomePage";
+import Services from "@/components/Services/Services";
 import Team from "@/pages/Team/Team";
 import Mobile from "@/pages/MobileApp/Mobile";
 import ERP from "@/pages/ERP/ERP";
 import UI from "@/pages/UI/UI";
 import Opt from "@/pages/Optimization/Opt";
 import Consulting from "@/pages/Consulting/Consulting";
-import Clients from "@/pages/Clients/Clients";
+import Clients from "@/components/Clients/Clients";
 import Delever from "@/pages/Delever/Delever";
 import Sms from "@/pages/SMS/Sms";
 import Good from "@/pages/GoodZone/Good";
 import Iman from "@/pages/Iman/Iman";
 import HowTo from "@/pages/HowTo/HowTo";
-import Contact from "@/pages/Contact/Contact";
-import Footer from "@/pages/Footer/Footer";
+import Contact from "@/components/Contact/Contact";
+import Footer from "@/components/Footer/Footer";
 import ToolsFilt from "@/pages/ToolsFilt/ToolsFilt";
 
 
