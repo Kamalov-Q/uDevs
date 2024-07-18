@@ -17,7 +17,6 @@ import Iman from "@/pages/Iman/Iman";
 import HowTo from "@/pages/HowTo/HowTo";
 import Contact from "@/pages/Contact/Contact";
 import Footer from "@/pages/Footer/Footer";
-import Tools from "@/pages/Tools/Tools";
 import ToolsFilt from "@/pages/ToolsFilt/ToolsFilt";
 
 
