@@ -6,20 +6,16 @@
 }
 .Swiper {
     width: 100%;
+    margin-block: 50px;
 }
 .SwiperSlide {
-    width: 350px;
-    height: 180px;
-  
-}
-.SwiperImg {
     width: 100%;
-    height: 80%;
+    height: 100%;
     transition: all 1.5s;
 }
-.SwiperImg:hover {
-    height: 100%;
-    transform: scale(1.01);
+.SwiperSlide:hover {
+    padding-block: 15px;
+    transform: scale(1.1);
 }
 
 /* Media */
@@ -32,6 +28,14 @@
     }
 }
 @media (min-width: 450px) and (max-width: 650px) {
+    .container.Client {
+        padding: 20px;
+    }
+    .ClientRow {
+        padding: 20px;
+    }
+}
+@media (min-width: 650px) and (max-width: 850px) {
     .container.Client {
         padding: 20px;
     }

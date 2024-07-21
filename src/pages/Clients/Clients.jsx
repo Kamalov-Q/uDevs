@@ -43,24 +43,24 @@ const Clients = () => {
               spaceBetween: 10,
             },
             450: {
-              slidesPerView: 1,
-              spaceBetween: 10,
-            },
-            650: {
               slidesPerView: 2,
               spaceBetween: 10,
             },
-            850: {
+            650: {
               slidesPerView: 3,
-              spaceBetween: 30,
+              spaceBetween: 10,
+            },
+            850: {
+              slidesPerView: 4,
+              spaceBetween: 10,
             },
             1050: {
               slidesPerView: 4,
-              spaceBetween: 40,
+              spaceBetween: 10,
             },
             1250: {
               slidesPerView: 5,
-              spaceBetween: 50,
+              spaceBetween: 10,
             },
           }}
           loop={true}
@@ -71,41 +71,63 @@ const Clients = () => {
           }}
           className="Swiper"
         >
-          <SwiperSlide>
-            <div className="SwiperSlide">
-              <Image alt="" src={s1} className="SwiperImg" />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="SwiperSlide">
-              <Image alt="" src={s2} className="SwiperImg" />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="SwiperSlide">
-              <Image alt="" src={s3} className="SwiperImg" />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="SwiperSlide">
-              <Image alt="" src={s4} className="SwiperImg" />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="SwiperSlide">
-              <Image alt="" src={s5} className="SwiperImg" />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="SwiperSlide">
-              <Image alt="" src={s6} className="SwiperImg" />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="SwiperSlide">
-              <Image alt="" src={s7} className="SwiperImg" />
-            </div>
-          </SwiperSlide>
+          {[
+            {
+              className: "SwiperSlide",
+              src: s1,
+              alt: "Eror",
+              innerClass: "SwiperImg",
+              id: 1,
+            },
+            {
+              className: "SwiperSlide",
+              src: s2,
+              alt: "Eror",
+              innerClass: "SwiperImg",
+              id: 2,
+            },
+            {
+              className: "SwiperSlide",
+              src: s3,
+              alt: "Eror",
+              innerClass: "SwiperImg",
+              id: 3,
+            },
+            {
+              className: "SwiperSlide",
+              src: s4,
+              alt: "Eror",
+              innerClass: "SwiperImg",
+              id: 4,
+            },
+            {
+              className: "SwiperSlide",
+              src: s5,
+              alt: "Eror",
+              innerClass: "SwiperImg",
+              id: 5,
+            },
+            {
+              className: "SwiperSlide",
+              src: s6,
+              alt: "Eror",
+              innerClass: "SwiperImg",
+              id: 6,
+            },
+            {
+              className: "SwiperSlide",
+              src: s7,
+              alt: "Eror",
+              innerClass: "SwiperImg",
+              id: 7,
+            },
+          ]?.map((swiper) => (
+            <SwiperSlide key={swiper?.id}>
+              <div className={swiper?.className}>
+                <Image src={swiper?.src} alt={swiper?.alt} />
+              </div>
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
       <div className="row">
@@ -119,24 +141,24 @@ const Clients = () => {
               spaceBetween: 10,
             },
             450: {
-              slidesPerView: 1,
-              spaceBetween: 10,
-            },
-            650: {
               slidesPerView: 2,
               spaceBetween: 10,
             },
-            850: {
+            650: {
               slidesPerView: 3,
-              spaceBetween: 30,
+              spaceBetween: 10,
+            },
+            850: {
+              slidesPerView: 4,
+              spaceBetween: 10,
             },
             1050: {
               slidesPerView: 4,
-              spaceBetween: 40,
+              spaceBetween: 10,
             },
             1250: {
               slidesPerView: 5,
-              spaceBetween: 50,
+              spaceBetween: 10,
             },
           }}
           loop={true}
@@ -148,41 +170,63 @@ const Clients = () => {
           }}
           className="Swiper"
         >
-          <SwiperSlide>
-            <div className="SwiperSlide">
-              <Image alt="" src={s21} className="SwiperImg" />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="SwiperSlide">
-              <Image alt="" src={s22} className="SwiperImg" />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="SwiperSlide">
-              <Image alt="" src={s23} className="SwiperImg" />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="SwiperSlide">
-              <Image alt="" src={s24} className="SwiperImg" />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="SwiperSlide">
-              <Image alt="" src={s25} className="SwiperImg" />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="SwiperSlide">
-              <Image alt="" src={s26} className="SwiperImg" />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="SwiperSlide">
-              <Image alt="" src={s27} className="SwiperImg" />
-            </div>
-          </SwiperSlide>
+          {[
+            {
+              className: "SwiperSlide",
+              src: s21,
+              alt: "Eror",
+              innerClass: "SwiperImg",
+              id: 1,
+            },
+            {
+              className: "SwiperSlide",
+              src: s22,
+              alt: "Eror",
+              innerClass: "SwiperImg",
+              id: 2,
+            },
+            {
+              className: "SwiperSlide",
+              src: s23,
+              alt: "Eror",
+              innerClass: "SwiperImg",
+              id: 3,
+            },
+            {
+              className: "SwiperSlide",
+              src: s24,
+              alt: "Eror",
+              innerClass: "SwiperImg",
+              id: 4,
+            },
+            {
+              className: "SwiperSlide",
+              src: s25,
+              alt: "Eror",
+              innerClass: "SwiperImg",
+              id: 5,
+            },
+            {
+              className: "SwiperSlide",
+              src: s26,
+              alt: "Eror",
+              innerClass: "SwiperImg",
+              id: 6,
+            },
+            {
+              className: "SwiperSlide",
+              src: s27,
+              alt: "Eror",
+              innerClass: "SwiperImg",
+              id: 7,
+            },
+          ]?.map((swiper) => (
+            <SwiperSlide key={swiper?.id}>
+              <div className={swiper?.className}>
+                <Image src={swiper?.src} alt={swiper?.alt} />
+              </div>
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     </div>
