@@ -1,4 +1,3 @@
-
 /* eslint-disable @next/next/no-sync-scripts */
 import Navbar from "@/components/Navbar/Navbar";
 import HomePage from "@/components/Home/HomePage";
@@ -19,31 +18,31 @@ import Contact from "@/components/Contact/Contact";
 import Footer from "@/components/Footer/Footer";
 import ToolsFilt from "@/pages/ToolsFilt/ToolsFilt";
 
-
 /* @kamalovquvomidin Kamalov Quvomiddin 15.07.2024 */
 /* Updated 17.07.2024  14:54 by Kamalov Quvomiddin*/
+/* Updated 08.12.2024  17:24 by Kamalov Quvomiddin at Karshi */
 
 export default function Home() {
   return (
     <>
-    <Navbar/>
-    <HomePage/>
-    <Services/>
-    <Team/>
-    <Mobile/>
-    <ERP/>
-    <UI/>
-    <Opt/>
-    <Consulting/>
-    <ToolsFilt/>
-    <Clients/>
-    <Delever/>
-    <Sms/>
-    <Good/>
-    <Iman/>
-    <HowTo/>
-    <Contact/>
-    <Footer/>
+      <Navbar />
+      <HomePage />
+      <Services />
+      <Team />
+      <Mobile />
+      <ERP />
+      <UI />
+      <Opt />
+      <Consulting />
+      <ToolsFilt />
+      <Clients />
+      <Delever />
+      <Sms />
+      <Good />
+      <Iman />
+      <HowTo />
+      <Contact />
+      <Footer />
     </>
   );
 }
